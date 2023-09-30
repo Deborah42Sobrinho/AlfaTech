@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    width: 100%;
+    min-width: 42%;
+    font-family: 'Poppins';
+}
+
+.topo{
+    top: 0%;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+}
+.logo1, .topo{
+    display: flex;
+}
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.divspan, .logo1{
+    margin: auto 10%}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.slogan h1, .slogan p{
+    margin: 0px;
+}
+.topo img{
+    width: 80px;
+}
+.slogan p{
+    color: #2f86d6;
+}
+
+.topo a{
+    text-decoration: none;
+    color: #233032;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.banner{
+    color: #fff;
+    background-color: #2f86d6;
+}
+
+
+
+
+
+/**/
+.plano img{
+    width: 10%;
+}
