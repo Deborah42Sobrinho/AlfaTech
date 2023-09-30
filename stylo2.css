@@ -1,0 +1,153 @@
+body{
+    margin: 0 auto;
+    width: 100%;
+    min-width: 42%;
+    font-family: 'Poppins';
+    
+}
+
+span {
+    color: #307cd2
+}
+
+div.topo{
+    text-align: right;
+    padding: 4% 0;
+    position: relative;
+    background-color: #307cd2
+}
+
+.topo img{
+    width: 5%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.topo h1, .topo p{
+    text-align: left;
+    position: absolute;
+    top: 16%;
+    left: 21%;
+}
+
+.topo p{
+    top: 43%;
+    color: white;
+    font-size: 0.9vw;
+}
+
+.topo h1{
+    font-size: 1.7vw;
+}
+
+.topo a{
+    margin-right: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+a.topo{
+    margin-right: 15%;
+}
+
+div.tabela-precos{
+    width: 1024vw;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 1.0vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.nada , .nada2 {
+    background-color: white;
+}
+
+
+
+
+td{
+    border: #f1f3f7 solid 1px;
+    padding: 0.1vw 0.4vw;
+    margin: 0.1vw 0;
+    
+}
+
+td p{
+    text-align: center;
+    background-color: #f1f3f7;
+    padding: 10% 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+.lefto{
+    border: none;
+}
+
+.grai{
+    background-color: #f1f3f7;
+    color: gray;
+    font-size: 0.8vw;
+}
+
+.neg{
+    margin: -100spx;
+    background-color: #f1f3f7;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.bolinha{
+    color: #307cd2;
+    font-size: 40px;
+}
+
+
+div.rodape{
+    position: relative;
+    background-color: #307cd2;
+    padding: 8% 0;
+}
+
+.rodape img{
+    width: 5%;
+    position: absolute;
+    top: 28%;
+    left: 43%   
+}
+
+.rodape h1, .rodape p{
+    position: absolute;
+    left: 49%;
+}
+
+.rodape h1{
+    top: 25%;
+    font-size: 1.7vw;
+}
+
+.rodape p{
+    top: 42%;
+    color: white;
+    font-size: 0.9vw;
+}
+
+p.rodape{
+    top: 60%;
+    left: 38%;
+}
+
+p.assign{
+    text-align: center;
+    margin-top: 1%;
+    font-weight: bold;
+    font-size: 0.9vw;
+}
