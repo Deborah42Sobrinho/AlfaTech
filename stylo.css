@@ -1,0 +1,234 @@
+body{
+    margin: 0%;
+    width: 100%;
+    min-width: 42%;
+    font-family: 'Poppins';
+}
+
+/*ESPAÇAMENTO DE TUDO*/
+.topo, .topo1, .divspan, .banner, .banner-texto, .primeiro-anuncio, .informacao, .plano, .segundo-anuncio, .rodape{
+    width: 1024px;
+    margin: auto;
+}
+
+/*TUDO Q É FLEX*/
+.logo, .topo-fundo, .topo, .banner, .primeiro-anuncio, .segundo-anuncio, .informacao, .informacao-texto{
+    display: flex;
+}
+
+/*span*/
+span{
+    color: #2f86d6;
+}
+
+/*BOLD*/
+.topo a, button a , h2{
+    font-weight: bold;
+}
+
+
+/*TOPO*/
+
+.topo-fundo{
+    background-color: #fff;
+    top: 0%;
+    padding: 35px 0;
+    width: 100%;
+    position: fixed;
+}
+
+/*LOGO*/
+.divspan, .logo{
+
+    margin: auto;
+}
+.slogan h1, .slogan p{
+    margin: 0px;
+}
+.logo img{
+    width: 80px;
+}
+.slogan p{
+    color: #2f86d6;
+}
+.topo a{
+    text-decoration: none;
+    color: #233032;
+    margin-left: 20px;
+}
+
+
+/*BANNER*/
+.banner{
+
+    color: #fff;
+}
+
+.banner-fundo{
+    margin-top: 150px;
+    background-color: #2f86d6;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.banner, .banner img, .banner-texto{
+    padding: 0 35px;
+}
+.banner img{
+    width: 50%;
+}
+
+.banner-texto{
+    width: 470px;
+}
+
+
+/*PRIMEIRO ANUNCIO*/
+.primeiro-anuncio{
+    color: #fff;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.primeiro-anuncio-fundo{
+    background-color: #233032;
+    width: 100%;
+}
+
+.primeiro-anuncio-texto{
+    margin: auto;
+    width: 600px;
+}
+
+.primeiro-anuncio h2, .primeiro-anuncio p{
+    margin: 0%;
+}
+
+.primeiro-anuncio button{ 
+    margin: auto;
+    padding:20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #2f86d6;
+    margin-left: auto; /*USAR ISSO NO TOPO TBM*/
+}
+button img{
+    text-align: end;
+}
+button a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*INFORMAÇÃO*/
+
+.informacao{
+    text-align: center;
+    padding: 100px;
+}
+
+.informacao-titulo{
+    font-size: larger;
+    width: 900px;
+}
+.informacao img{
+    width: 100px;
+}
+.informacao-texto{
+    height: 33%;
+}
+
+
+/*PLANOS*/
+
+.plano-fundo{
+    background-color: #f1f3f7;
+    width: 100%;
+    padding: 100px 0;
+}
+.plano{
+    padding: 5px;
+    text-align: center;
+}
+table{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 0px    rgba(47, 134, 241, 1);
+}
+
+.plano img{
+    width: 100px;
+}
+
+tr:nth-child(even) {background-color: f1f3f7;}
+
+.plano p{
+    color: #a89f9f;
+}
+
+
+/*         acabar               */
+
+
+/*segundo anuncio*/
+
+.segundo-anuncio{
+    color: #fff;
+    padding: 25px 0;
+}
+
+.segundo-anuncio-fundo{
+    background-color: #2f86d6;
+    width: 100%;
+}
+
+
+.segundo-anuncio-texto{
+    margin: auto;
+}
+
+.segundo-anuncio h2, .segundo-anuncio p{
+    margin: 0%;
+}
+
+.segundo-anuncio button{ 
+    padding:20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #233032;
+    margin-left: auto; /*USAR ISSO NO TOPO TBM*/
+}
+button img{
+    text-align: end;
+}
+button a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*RODAPÉ*/
+
+.rodape p{
+    
+    color: #233032;
+}
+
+.rodape{
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.rodape .logo{
+    justify-content: center;
+    left: auto;
+    padding-left: auto;
+    text-align: center;
+}
+
+.rodape-final p{
+    background-color: #f6f6f6;
+}
